@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17493d">
+  <meta name="description" content="猫神会员礼系统：会员礼收货信息与两张证明截图登记。">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; frame-src https://tally.so; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>猫神会员礼系统</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="public">
+  <a class="skip-link" href="#app">跳到主要内容</a>
+  <div class="top-strip">
+    <p>猫神会员礼系统 · 各主播会员礼统一收件登记 · 资料仅用于核验与寄送</p>
+  </div>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="猫神会员礼系统首页">
+        <img class="brand-mark" src="assets/favicon.svg" alt="">
+        <span class="brand-copy">
+          <strong data-site-title>猫神会员礼系统</strong>
+          <small>CAT GOD MEMBER GIFTS</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a class="nav-link" href="index.html">全部会员礼</a>
+        <a class="nav-link" href="index.html#lookup">查询 / 修改</a>
+        <a class="nav-link nav-admin" href="admin.html">管理入口</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="shell">
+    <div class="loading-state">
+      <span class="loading-cat" aria-hidden="true"></span>
+      <p>正在准备猫神会员礼…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>猫神会员礼系统 · 各主播会员礼统一登记</p>
+      <p>资料仅用于会员礼核验与寄送 · <a href="admin.html">管理员入口</a></p>
+    </div>
+  </footer>
+
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+  <div id="modal-root"></div>
+
+  <noscript>
+    <div class="noscript">本系统需要启用 JavaScript 才能在浏览器中完成登记和资料保存。</div>
+  </noscript>
+
+  <script src="js/config.js"></script>
+  <script src="js/regions.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

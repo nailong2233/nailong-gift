@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1040" viewBox="0 0 820 1040">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f1e8"/>
+      <stop offset=".55" stop-color="#efe7d8"/>
+      <stop offset="1" stop-color="#e6ddca"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173f36"/>
+      <stop offset="1" stop-color="#2b5e4e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2ddb0"/>
+      <stop offset="1" stop-color="#c6a35e"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#5b4b31" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="820" height="1040" fill="url(#bg)"/>
+  <circle cx="700" cy="140" r="210" fill="#d65a3a" opacity=".06"/>
+  <circle cx="80" cy="930" r="220" fill="#17493d" opacity=".05"/>
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="52" y="92" fill="#17493d" font-size="17" font-weight="700" letter-spacing="4">CAT GOD MEMBERSHIP</text>
+    <text x="52" y="174" fill="#172b25" font-size="44" font-weight="700">会员有效期记录</text>
+    <text x="52" y="216" fill="#73827b" font-size="17" letter-spacing="1">MEMBERSHIP VALIDITY · 示例图</text>
+
+    <g filter="url(#s)">
+      <rect x="52" y="274" width="716" height="404" rx="34" fill="url(#card)"/>
+      <circle cx="680" cy="340" r="134" fill="#ffffff" opacity=".04"/>
+      <circle cx="740" cy="560" r="180" fill="#d65a3a" opacity=".08"/>
+      <path d="M88 326 80 286l43 30h24l43-30-8 40c8 12 12 26 12 41 0 39-31 63-67 63s-67-24-67-63c0-15 4-29 12-41Z" fill="#f5f1e8" opacity=".96"/>
+      <path d="M99 314l-4-18 22 15Z" fill="#d65a3a"/>
+      <path d="M166 314l4-18-22 15Z" fill="#d65a3a"/>
+      <circle cx="121" cy="354" r="5" fill="#17493d"/>
+      <circle cx="145" cy="354" r="5" fill="#17493d"/>
+      <path d="M125 371c5 4 11 4 16 0" fill="none" stroke="#d65a3a" stroke-width="3" stroke-linecap="round"/>
+      <text x="94" y="474" fill="#c4d4cb" font-size="18">猫神会员 · 年度会员</text>
+      <text x="94" y="530" fill="#f6ead2" font-size="26" font-weight="600">有效期至</text>
+      <text x="94" y="600" fill="url(#gold)" font-size="58" font-weight="700" letter-spacing="1">2027.12.31</text>
+      <text x="94" y="646" fill="#9fb8ab" font-size="16">MEMBERSHIP VALID UNTIL</text>
+      <rect x="582" y="510" width="142" height="46" rx="23" fill="#f5f1e8" opacity=".13"/>
+      <text x="653" y="541" fill="#f2ddb0" font-size="16" text-anchor="middle">有效期内</text>
+    </g>
+
+    <rect x="52" y="724" width="716" height="118" rx="24" fill="#ffffff" opacity=".66" stroke="#d8cdb8"/>
+    <text x="82" y="769" fill="#73827b" font-size="15">剩余有效期</text>
+    <text x="82" y="814" fill="#17493d" font-size="34" font-weight="700">436 天</text>
+    <rect x="300" y="785" width="420" height="14" rx="7" fill="#dcd4c5"/>
+    <rect x="300" y="785" width="304" height="14" rx="7" fill="#d65a3a"/>
+    <text x="300" y="829" fill="#8b8271" font-size="13">已使用 212 天 / 共 548 天</text>
+
+    <rect x="52" y="874" width="716" height="54" rx="27" fill="#d65a3a" opacity=".1"/>
+    <text x="410" y="908" fill="#b15a42" font-size="16" text-anchor="middle" letter-spacing="2">示例图 · 请上传能看清截止日期的真实截图</text>
+  </g>
+</svg>

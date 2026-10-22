@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="theme-color" content="#0f342c">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <title>管理后台 · 猫神会员礼系统</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="admin">
+  <a class="skip-link" href="#admin-app">跳到主要内容</a>
+  <header class="site-header admin-header">
+    <div class="shell header-inner">
+      <a class="brand" href="admin.html" aria-label="猫神会员礼管理后台">
+        <img class="brand-mark" src="assets/favicon.svg" alt="">
+        <span class="brand-copy">
+          <strong data-site-title>猫神会员礼系统</strong>
+          <small>ADMIN CONSOLE</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="管理导航">
+        <a class="nav-link" href="index.html" target="_blank" rel="noopener">打开用户端 ↗</a>
+        <a class="nav-link" href="index.html?preview=1" target="_blank" rel="noopener">预览本地设置 ↗</a>
+        <button class="nav-link nav-button" type="button" data-admin-logout hidden>退出后台</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="admin-app" class="shell">
+    <div class="loading-state">
+      <span class="loading-cat" aria-hidden="true"></span>
+      <p>正在打开管理后台…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>管理后台 · 数据仅保存在当前浏览器</p>
+      <p>请定期导出备份，并妥善保管管理员密码</p>
+    </div>
+  </footer>
+
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+  <div id="modal-root"></div>
+
+  <noscript>
+    <div class="noscript">管理后台需要启用 JavaScript 才能运行。</div>
+  </noscript>
+
+  <script src="js/config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
